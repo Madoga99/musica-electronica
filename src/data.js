@@ -2,7 +2,25 @@ import { v4 as uuidv4 } from "uuid";
 
 function chillHop() {
     return [
-
+        
+        {
+            name:"7 Mix Dance",
+            artist: "Dance",
+            cover: "https://manuappshome.files.wordpress.com/2019/09/7-de-radio-dance-1.png",
+            id: uuidv4(),
+            color: ["#1D2731", "#F17E76"],
+            audio: "https://edge07.streamonkey.net/radio7-mixshow/stream/mp3",
+            active: false,
+        },
+         {
+            name:"Xtreme Mixx Radio",
+            artist: "Dance",
+            cover: "https://manuappshome.files.wordpress.com/2019/09/xtreme-mixx-radio-.png",
+            id: uuidv4(),
+            color: ["#008781", "#cfc08c"],
+            audio: "http://87.98.219.178:8156/index.html;stream.nsv",
+            active: false,
+        },
         {
             name:"Radio Dance EDT - ECIJA",
             artist: "Dance",
@@ -190,24 +208,6 @@ function chillHop() {
             id: uuidv4(),
             color: ["#1D2731", "#F17E76"],
             audio: "http://tuner.gayfm.de/;0337799206539895stream.nsv",
-            active: false,
-        },
-         {
-            name:"7 Mix Dance",
-            artist: "Dance",
-            cover: "https://manuappshome.files.wordpress.com/2019/09/7-de-radio-dance-1.png",
-            id: uuidv4(),
-            color: ["#1D2731", "#F17E76"],
-            audio: "https://edge07.streamonkey.net/radio7-mixshow/stream/mp3",
-            active: false,
-        },
-         {
-            name:"Xtreme Mixx Radio",
-            artist: "Dance",
-            cover: "https://manuappshome.files.wordpress.com/2019/09/xtreme-mixx-radio-.png",
-            id: uuidv4(),
-            color: ["#008781", "#cfc08c"],
-            audio: "http://87.98.219.178:8156/index.html;stream.nsv",
             active: false,
         },
         {
