@@ -72,7 +72,7 @@ function chillHop() {
             cover: "https://manuappshome.files.wordpress.com/2019/09/bn-radio-electro-house.png",
             id: uuidv4(),
             color: ["#845648","#FDFBDF"],
-            audio: "https://manuappshome.files.wordpress.com/2019/09/bn-radio-electro-house.png",
+            audio: "http://stream.bn-radio.de:8000/bn-radio.mp3",
             active: false,
         },
         {
